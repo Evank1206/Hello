@@ -4,7 +4,7 @@
 }
 header{
     display: table;
-    background-color:blue;
+    background-color:rgb(156, 156, 233);
     width:100%;
 }
 h3{
@@ -42,17 +42,67 @@ a:hover{
 
 .box1{
     position: absolute;
-    width: 300px;
+    width: 1000px;
     height:300px;
+    background-color:blue;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px blue;
+}
+.box2{
+    position: absolute;
+    width: 800px;
+    height:200px;
     background-color:red;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 3px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px red;
+}
+.box3{
+    position: absolute;
+    width: 600px;
+    height:100px;
+    background-color:yellow;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px green;
+}
+.box4{
+    position: absolute;
+    width: 400px;
+    height:30px;
+    background-color:green;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px blue;
+}
+
+.box1:hover {
+    background-color: lightgrey;
+    box-shadow: none;
+}
+.box2:hover {
+    background-color: lightgrey;
+    box-shadow: none;
+}
+.box3:hover {
+    background-color: lightgrey;
+    box-shadow: none;
+}
+.box4:hover {
+    background-color: lightgrey;
+    box-shadow: none;
 }
 footer{
     height: 10vh;
-    background-color:blue;
+    background-color:rgb(156, 156, 228);
 }
 
