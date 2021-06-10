@@ -60,7 +60,7 @@ a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 3px;
-    box-shadow: 5px 5px 5px red;
+    /* box-shadow: 5px 5px 5px red; */
 }
 #box3{
     position: absolute;
@@ -119,5 +119,15 @@ h4{
 footer{
     height: 10vh;
     background-color:rgb(156, 156, 228);
+    display: table;
+    width: 100%;
+}
+footer > p {
+    color: lightblue;
+    display: table-cell;
+    vertical-align: middle;
+}
+footer > p:hover{
+    color: blue;
 }
 
