@@ -62,7 +62,7 @@ a:hover{
     border-radius: 3px;
     box-shadow: 5px 5px 5px red;
 }
-.box3{
+#box3{
     position: absolute;
     width: 600px;
     height:100px;
@@ -73,7 +73,7 @@ a:hover{
     border-radius: 3px;
     box-shadow: 10px 10px 10px green;
 }
-.box4{
+#box4{
     position: absolute;
     width: 400px;
     height:30px;
@@ -83,6 +83,7 @@ a:hover{
     transform: translate(-50%, -50%);
     border-radius: 3px;
     box-shadow: 10px 10px 10px blue;
+    display: table;
 }
 
 .box1:hover {
@@ -93,13 +94,27 @@ a:hover{
     background-color: lightgrey;
     box-shadow: none;
 }
-.box3:hover {
+#box3:hover {
     background-color: lightgrey;
     box-shadow: none;
 }
-.box4:hover {
+/* .box4:hover {
     background-color: lightgrey;
     box-shadow: none;
+} */
+p{
+    color: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+h4{
+    color: blue;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
 }
 footer{
     height: 10vh;
