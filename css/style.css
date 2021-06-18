@@ -39,6 +39,9 @@ main{
 a:hover{
     color:orange;
 }
+h3>a:hover{
+    color: blue;
+}
 
 .box1{
     position: absolute;
